@@ -6,7 +6,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --dir src",
-    "lint:fix": "next lint --dir src --fix"
+    "lint:fix": "next lint --dir src --fix",
+    "format:check": "prettier --check --ignore-path .gitignore './**/*.{js,jsx,json,css}'",
+    "format:fix": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,json,css}'"
   },
   "dependencies": {
     "next": "12.0.4",
