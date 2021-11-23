@@ -1,22 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# starter-next-js
 
 ## Getting Started
 
-First, run the development server:
+### 依存パッケージのインストール
+
+```
+npm install
+```
+
+### Next.js を開発モードで起動
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+`pages/index.js`を修正することで、ページの編集を開始することができます。ファイルを編集すると、ページが自動更新されます。
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+[API routes](https://nextjs.org/docs/api-routes/introduction)は[http://localhost:3000/api/hello](http://localhost:3000/api/hello)でアクセスできます。このエンドポイントは `pages/api/hello.js` で編集できます。
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+pages/api`ディレクトリは`/api/\*` にマッピングされます。このディレクトリ内のファイルは、React ページではなく、[API routes](https://nextjs.org/docs/api-routes/introduction)として扱われます。
+
+## ビルド
+
+Next.js を本番環境で使用するためのアプリケーションを構築
+
+```
+npm run build
+```
+
+## Storybook
+
+UI コンポーネントツール Storybook を起動。
+
+```
+npm run storybook
+```
+
+## Lint + format
+
+### Eslint
+
+```
+npm run lint
+```
+
+```
+npm run lint:fix
+```
+
+### stylelint
+
+```
+npm run lint:stylelint
+```
+
+```
+npm run lintfix:stylelint
+```
+
+### Prettier
+
+```
+format:check
+```
+
+```
+format:fix
+```
 
 ## Learn More
 
