@@ -11,11 +11,13 @@
     "format:fix": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,json,css}'"
   },
   "dependencies": {
+    "@emotion/react": "^11.6.0",
     "next": "12.0.4",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@emotion/babel-plugin": "^11.3.0",
     "eslint": "7.32.0",
     "eslint-config-airbnb": "^19.0.0",
     "eslint-config-next": "12.0.4",
