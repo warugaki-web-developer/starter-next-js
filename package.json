@@ -7,6 +7,8 @@
     "start": "next start",
     "lint": "next lint --dir src",
     "lint:fix": "next lint --dir src --fix",
+    "lint:stylelint": "stylelint ./src/**/*.{css,jsx}",
+    "lintfix:stylelint": "stylelint --fix ./src/**/*.{css,jsx}",
     "format:check": "prettier --check --ignore-path .gitignore './**/*.{js,jsx,json,css}'",
     "format:fix": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,json,css}'"
   },
@@ -18,11 +20,16 @@
   },
   "devDependencies": {
     "@emotion/babel-plugin": "^11.3.0",
+    "@stylelint/postcss-css-in-js": "^0.37.2",
     "eslint": "7.32.0",
     "eslint-config-airbnb": "^19.0.0",
     "eslint-config-next": "12.0.4",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-unused-imports": "^1.1.5",
-    "prettier": "^2.4.1"
+    "postcss-syntax": "^0.36.2",
+    "prettier": "^2.4.1",
+    "stylelint": "^14.1.0",
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-standard": "^24.0.0"
   }
 }

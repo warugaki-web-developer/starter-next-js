@@ -15,6 +15,7 @@
         "namedComponents": "arrow-function" //"function-declaration" | "function-expression" | "arrow-function"
       }
     ],
+    "no-use-before-define": ["error", { "variables": false }],
     "import/order": [
       "error",
       {
