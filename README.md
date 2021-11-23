@@ -63,11 +63,11 @@ npm run lintfix:stylelint
 ### Prettier
 
 ```
-format:check
+npm run format:check
 ```
 
 ```
-format:fix
+npm run format:fix
 ```
 
 ## Learn More
